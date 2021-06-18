@@ -98,7 +98,7 @@ public with sharing class getLeadDetailscont {
 
         res = h.send(req);
         system.debug(res);
-        system.debug(res.getBody());
+        system.debug('res.getBody'+res.getBody());
 
         if(res.getStatuscode()==200){
 
